@@ -8,7 +8,7 @@ package AdventOfSysMLv2_Day4 {
     part def SantaSleighDesign specializes SantaSleighSketch {
         part nnDashboard redefines dashboard defined by NaughtyNiceDashboard;
         ref part rudolph subsets reindeer {
-            attribute :>> noseColor = Color::red;
+            attribute :>> noseColor = Color::blue;
         }
     }
 
