@@ -2,7 +2,7 @@ package AdventOfSysMLv2_Day4 {
     private import ScalarValues::*;
     part def SantaSleighSketch {
         part dashboard { doc /* Naughty-Nice dashboard. */ }
-        abstract ref part reindeer : Reindeer [9];
+        abstract ref part reindeer : Reindeer [10];
     }
 
     part def SantaSleighDesign specializes SantaSleighSketch {
