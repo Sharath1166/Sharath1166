@@ -18,5 +18,13 @@ package AdventOfSysMLv2_Day4 {
         attribute noseColor : Color;
     }
 
-    enum def Color { // ... }
-}
+    enum def Color{
+          red;
+    green;
+    blue;
+    black;
+    white;
+
+    }
+    }
+    
