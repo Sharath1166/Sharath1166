@@ -2,13 +2,13 @@ package AdventOfSysMLv2_Day4 {
     private import ScalarValues::*;
     part def SantaSleighSketch {
         part dashboard { doc /* Naughty-Nice dashboard. */ }
-        abstract ref part reindeer : Reindeer [10];
+        abstract ref part reindeer : Reindeer [11];
     }
 
     part def SantaSleighDesign specializes SantaSleighSketch {
         part nnDashboard redefines dashboard defined by NaughtyNiceDashboard;
         ref part rudolph subsets reindeer {
-            attribute :>> noseColor = Color::blue;
+            attribute :>> noseColor = Color::black;
         }
     }
 
