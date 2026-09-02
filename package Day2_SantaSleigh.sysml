@@ -12,7 +12,7 @@ package Day2_SantaSleigh {
 
         // Entities related to the sleigh
         ref item santa;
-        abstract ref part reindeer : Reindeer [9];
+        abstract ref part reindeer : Reindeer [10];
        
         ref part dasher  subsets reindeer { constant redefines noseColor = Color::orange; }
         ref part dancer  subsets reindeer { constant redefines noseColor = Color::yellow; }
